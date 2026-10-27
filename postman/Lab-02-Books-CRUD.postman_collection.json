@@ -1,0 +1,132 @@
+{
+  "info": {
+    "name": "Lab 2 - SQLite Books CRUD",
+    "description": "Five required Express CRUD endpoints. Start the server before sending requests.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET all books",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/books/",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "books",
+            ""
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET one book",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/books/1/",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "books",
+            "1",
+            ""
+          ]
+        }
+      }
+    },
+    {
+      "name": "POST add book",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"title\": \"Clean Code\",\n  \"author\": \"Robert C. Martin\",\n  \"price\": 450,\n  \"pages\": 464\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseUrl}}/books/",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "books",
+            ""
+          ]
+        }
+      }
+    },
+    {
+      "name": "PUT update book",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"title\": \"Wings of Fire - Updated\",\n  \"author\": \"A. P. J. Abdul Kalam\",\n  \"price\": 275,\n  \"pages\": 190\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseUrl}}/books/1/",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "books",
+            "1",
+            ""
+          ]
+        }
+      }
+    },
+    {
+      "name": "DELETE book",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/books/11/",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "books",
+            "11",
+            ""
+          ]
+        },
+        "description": "Assumes the POST request created book ID 11. Change the ID to the ID returned by POST if needed."
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000"
+    }
+  ]
+}

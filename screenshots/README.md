@@ -1,0 +1,1 @@
+Add your real Postman and SQLite CLI screenshots here after running and testing the project. Required screenshot filenames are listed in the root README.md.
