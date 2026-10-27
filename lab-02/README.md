@@ -1,10 +1,10 @@
 # Lab 2: SQLite database and CRUD routes
 
 **Name:** Sandeep Reddy Basapure  
-**Registration number:** Add your registration number  
-**Section:** CSE Gen AI 104 (confirm your current official section)
+**Registration number:** 252U1R9016  
+**Section:** CSE Gen AI 2A
 
-**Live link:** Not applicable until deployed. See the deployment note below.
+Live link: https://nodejs-labs-2.onrender.com/books
 
 ## Objective
 
