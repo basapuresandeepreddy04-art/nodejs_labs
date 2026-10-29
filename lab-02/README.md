@@ -112,14 +112,25 @@ SELECT * FROM book ORDER BY id;
 
 ## Screenshots
 
-Place actual screenshots in this folder and embed them here. Capture the Postman response for each of the five endpoints and a SQLite CLI result showing the database contents. Do not submit placeholder images as proof of a successful test.
+Upload the actual response screenshots to the `screenshots/` folder and embed them here in GitHub Markdown so they display correctly in the repository.
 
-- `screenshots/get-all-books.png`
-- `screenshots/get-one-book.png`
-- `screenshots/post-book.png`
-- `screenshots/put-book.png`
-- `screenshots/delete-book.png`
-- `screenshots/sqlite-database.png`
+### GET all books
+![GET all books](screenshots/get-all-books.png)
+
+### GET one book
+![GET one book](screenshots/get-one-book.png)
+
+### POST a book
+![POST a book](screenshots/post-book.png)
+
+### PUT a book
+![PUT a book](screenshots/put-book.png)
+
+### DELETE a book
+![DELETE a book](screenshots/delete-book.png)
+
+### SQLite database
+![SQLite database](screenshots/sqlite-database.png)
 
 ## Deployment note
 
