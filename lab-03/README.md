@@ -6,7 +6,7 @@
 
 ## Live Deployment
 
-https://lab-3-k7tx.onrender.com
+https://nodejs-labs-3.onrender.com
 
 ## Project Description
 
