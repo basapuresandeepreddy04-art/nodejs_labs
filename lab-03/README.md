@@ -83,19 +83,7 @@ Updates an existing book. Expected response: 200 OK.
 
 ![PUT Update](screenshots/09-put-update.png)
 
-### 9. DELETE – Delete Book
-**Endpoint:** DELETE /books/1
 
-Deletes an existing book. Expected response: 200 OK.
-
-![DELETE Book](screenshots/10-delete-book.png)
-
-### 10. GET – Book Not Found
-**Endpoint:** GET /books/9999
-
-Tests error handling when a book ID does not exist. Expected response: 404 Not Found.
-
-![Book Not Found](screenshots/11-not-found.png)
 
 ## Technologies Used
 
